@@ -1,0 +1,398 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+-----------------------------
+Phones: 300px - 600px
+Tablets/Large phones: 600px - 768px
+Tablets: 768px - 992px
+Laptops/Desktops: 992px - 1200px
+Large laptops/Desktops: acima de 1200px
+*/
+
+@media screen and (min-width: 300px)  and (max-width: 600px) { /*phones*/
+
+    header {
+        background-color: #1a2d5f;
+        height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header img {
+        width: 299px;
+        height: 70px;
+    }
+
+    .banner {
+    height: 350px;
+
+    background-image: url(../video/gif.banner.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    main {
+        background-color: #1a2d5f;
+        padding: 30px;
+        width: auto;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+
+    main h1 {
+        color: #b0d04f;
+        margin-bottom: 16px;
+        font-size: 45px;
+        text-align: center;
+        font-weight: 400;
+        font-family: biennalemedium;
+    }
+
+    #purpose h1{
+            font-size: 45px;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 40px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .card {
+        background-color: white;
+        padding: 15px;
+        border-radius: 5px;
+        width: auto;
+    }
+
+    .card-01, .card-03 {
+        height: auto;
+    }
+
+    .image-card {
+        background-color: #dadada;
+        padding: 20px;
+        flex-basis: 350px;
+        border-radius: 5px;
+    }
+
+    .image-card  p{
+        background-color: #dadada;
+        padding: 5px;
+        flex-basis: 350px;
+        border-radius: 5px;
+        font-size: 1em;
+        text-align: center;
+        font-family: mozaicfamilyregular;
+    }
+
+    .section2 {
+        background-color: white;
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+
+    .about-text {
+        text-align: left;
+        margin: 10px;
+    }
+
+    .img-about {
+        display: none;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .cell {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    #footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .margin-cell {
+        margin-left: -42px;
+    }
+
+}
+
+@media screen and (min-width: 601px)  and (max-width: 767px) { /*phones/tablets FINALIZADO*/
+
+    .img-about {
+        display: none;
+    }
+
+    main {
+        background-color: #1a2d5f;
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 40px;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card {
+        background-color: white;
+        padding: 15px;
+        border-radius: 5px;
+        width: 250px;
+    }
+
+    .image-card {
+        background-color: #dadada;
+        padding: 20px;
+        flex-basis: 350px;
+        border-radius: 5px;
+    }
+
+    .image-card  p{
+        background-color: #dadada;
+        padding: 5px;
+        flex-basis: 350px;
+        border-radius: 5px;
+        font-size: 1em;
+        text-align: center;
+        font-family: mozaicfamilyregular;
+    }
+
+    .card-01, .card-03 {
+        height: 130px;
+    }
+
+    .section2 {
+        background-color: white;
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+
+    #footer-social-media {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2.5rem;
+    }
+
+    .margin {
+        margin-bottom: 37px;
+    }
+
+    .list3{
+        margin-left: 50px;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .cell {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    .list3 h3 {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px)  and (max-width: 992px) { /*tablet FINALIZADO*/
+
+    .img-about {
+        display: none;
+    }
+
+    main {
+        background-color: #1a2d5f;
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        height: 560px;
+    }
+
+    .image-card {
+        background-color: #dadada;
+        padding: 20px;
+        flex-basis: 350px;
+        border-radius: 5px;
+    }
+
+    .image-card  p{
+        background-color: #dadada;
+        padding: 5px;
+        flex-basis: 350px;
+        border-radius: 5px;
+        font-size: 1em;
+        text-align: center;
+        font-family: mozaicfamilyregular;
+    }
+
+    .section2 {
+        background-color: white;
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+
+    #footer-social-media {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2.5rem;
+    }
+
+    .margin {
+        margin-bottom: 37px;
+    }
+
+    .list3{
+        margin-left: 50px;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .cell {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        list-style: none;
+        margin-top: 10px;
+    }
+    
+    .list3 h3 {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (min-width: 993px)  and (max-width: 1200px) { /*laptops/desktops FINALIZADO*/
+    
+    .section2 {
+        background-color: white;
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    } 
+
+    main {
+        background-color: #1a2d5f;
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+
+    .card p {
+        color: #1a2d5f;
+        font-family: mozaicfamilyregular;    
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.125em;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    .image-card {
+        background-color: #dadada;
+        padding: 40px;
+        flex-basis: 350px;
+        border-radius: 5px;
+    }
+
+    .image-card p{
+        background-color: #dadada;
+        padding: 5px;
+        flex-basis: 350px;
+        border-radius: 5px;
+        font-size: 1.125em;
+        text-align: center;
+        font-family: mozaicfamilyregular;
+    }
+
+    .about img {
+        height: auto;
+        width: 420px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) { /*large laptops/desktops telas FINALIZADO*/
+    
+    .section2 {
+        background-color: white;
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    } 
+
+    .card h3 {
+        color: #1a2d5f;
+        font-weight: bold;
+        margin-top: 20px;
+        font-family: biennalemedium;
+        font-size: 1.4em;
+    }
+    
+    .card p {
+        color: #1a2d5f;
+        font-family: mozaicfamilyregular;    
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.125em;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    .image-card {
+        background-color: #dadada;
+        padding: 40px;
+        flex-basis: 350px;
+        border-radius: 5px;
+    }
+
+    .image-card p{
+        background-color: #dadada;
+        padding: 5px;
+        flex-basis: 350px;
+        border-radius: 5px;
+        font-size: 1.125em;
+        text-align: center;
+        font-family: mozaicfamilyregular;
+    }
+
+}
