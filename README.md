@@ -23,7 +23,7 @@ Se você quiser conferir a versão 1.0 do site que desenvolvemos para a <u><i>Su
 Obrigado a todos por seu apoio contínuo e pela oportunidade de compartilhar essa experiência com vocês.
 
 Atenciosamente, <br>
-<b><i><u>Bernardo Araújo Alves</u></i></b>
+<b><i><u>Bernardo Araújo Alves.</u></i></b>
 
 <br>
 
