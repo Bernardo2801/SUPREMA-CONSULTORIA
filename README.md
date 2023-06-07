@@ -10,7 +10,7 @@ Gostaria de compartilhar com vocês o meu primeiro trabalho como <b>desenvolvedo
 
 Minha contribuição foi criar a versão 1.0 da <b>landing page</b> da <a href="supremaconsultoriagov.com.br"><u><i>Suprema Consultoria</i></u></a>, que representa a presença online da empresa e sua identidade visual. No entanto, este projeto está apenas no começo, e planejamos continuar aprimorando e expandindo o site no futuro.
 
-Foi um projeto emocionante e desafiador, no qual pude aplicar minhas habilidades técnicas e criativas para criar uma experiência atraente e envolvente para os visitantes do site. Utilizei tecnologias como <i>HTML</i>, <i>CSS</i> e <i>JavaScript</i> para desenvolver uma interface responsiva e amigável aos dispositivos móveis.
+Foi um projeto emocionante e desafiador, no qual pude aplicar minhas habilidades técnicas e criativas para criar uma experiência atraente para os visitantes do site. Utilizei tecnologias como <i>HTML</i>, <i>CSS</i> e <i>JavaScript</i> para desenvolver uma interface responsiva e amigável aos dispositivos móveis.
 
 Além disso, foquei em otimizar o desempenho do site e garantir uma navegação intuitiva, de modo que os visitantes pudessem encontrar facilmente as informações relevantes sobre os serviços oferecidos pela <a href="supremaconsultoriagov.com.br"><u><i>Suprema Consultoria</i></u></a>. Trabalhar nesse projeto me permitiu aprimorar minhas habilidades de codificação, bem como aprender a colaborar em equipe e lidar com prazos e requisitos específicos do cliente.
 
