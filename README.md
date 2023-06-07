@@ -27,4 +27,4 @@ Atenciosamente, <br>
 
 <br>
 
-<img src="assets/images/header-readme.png">
+<img src="assets/images/apresentation-readme.png">
