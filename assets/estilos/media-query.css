@@ -49,6 +49,23 @@ Large laptops/Desktops: acima de 1200px
         font-family: biennalemedium;
     }
 
+    .client {
+        padding: 30px;
+        width: auto;
+        text-align: center;
+        margin: auto;
+        height: auto; 
+    }
+
+    .client h1 {
+        color: #1a2d5f;
+        margin-bottom: 16px;
+        font-size: 45px;
+        text-align: center;
+        font-weight: 400;
+        font-family: biennalemedium;
+    }
+
     #purpose h1{
             font-size: 45px;
     }
@@ -60,13 +77,25 @@ Large laptops/Desktops: acima de 1200px
         margin-bottom: 40px;
         justify-content: center;
         margin-top: 50px;
+        align-items: center;
     }
 
     .card {
         background-color: white;
         padding: 15px;
         border-radius: 5px;
-        width: auto;
+        width: 260px;
+    }
+
+    .card-client{
+        background-color: #b0d04f;
+        padding: 15px;
+        border-radius: 5px;
+        width: 250px;
+    }
+
+    .cliente-01, .cliente-02, .cliente-03, .cliente-04, img {
+        height: 80px;
     }
 
     .card-01, .card-03 {
@@ -152,6 +181,13 @@ Large laptops/Desktops: acima de 1200px
         height: auto;
     }
 
+    .client {
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+
     .details {
         display: flex;
         flex-direction: column;
@@ -168,6 +204,17 @@ Large laptops/Desktops: acima de 1200px
         padding: 15px;
         border-radius: 5px;
         width: 250px;
+    }
+
+    .card-client {
+        background-color: #b0d04f;
+        padding: 15px;
+        border-radius: 5px;
+        width: 250px;
+    }
+
+    .cliente-01, .cliente-02, .cliente-03, .cliente-04, img {
+        height: 80px;
     }
 
     .image-card {
@@ -251,7 +298,25 @@ Large laptops/Desktops: acima de 1200px
         padding: 30px;
         text-align: center;
         margin: auto;
-        height: 560px;
+        height: auto;
+    }
+
+    .client {
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+
+    .details {
+        display: flex;
+        flex: wrap;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 100px;
+        justify-content: center;
+        margin-top: 20px;
+        align-items: center;
     }
 
     .image-card {
@@ -339,9 +404,37 @@ Large laptops/Desktops: acima de 1200px
         height: auto;
     }
 
+    .client {
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+
+    .details {
+        display: flex;
+        flex: wrap;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 100px;
+        justify-content: center;
+        margin-top: 20px;
+        align-items: center;
+    }
+
     .card p {
         color: #1a2d5f;
-        font-family: mozaicfamilyregular;    
+        font-family: mozaicfamilybold;    
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.125em;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    .card-client p {
+        color: #1a2d5f;
+        font-family: mozaicfamilybold;    
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 1.125em;
@@ -399,6 +492,18 @@ Large laptops/Desktops: acima de 1200px
         font-size: 1.125em;
         font-weight: 300;
         line-height: 25px;
+    }
+
+    .card-client p{
+        color: #1a2d5f;
+        font-family: mozaicfamilybold;   
+        font-size: 1.125em;
+        font-weight: 300;
+        line-height: 25px;
+    }
+    
+    #pcliente{
+        margin-bottom: -45px;
     }
 
     .image-card {

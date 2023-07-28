@@ -447,3 +447,45 @@ footer {
     cursor: pointer;
     transform: scale(1.3);
 }
+
+.client {
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    height: auto;
+}
+
+.client h1 {
+    color: #1a2d5f;
+    margin-bottom: 16px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-family: biennalemedium;
+}
+
+.card-client {
+    background-color: #b0d04f;
+    padding: 15px;
+    border-radius: 5px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-client:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.card-client p {
+    color: #1a2d5f;
+    font-family: mozaicfamilybold;   
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: -1px;
+}
